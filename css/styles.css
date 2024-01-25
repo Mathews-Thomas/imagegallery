@@ -1,0 +1,79 @@
+
+    *{
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+    }
+    body{
+        background:black;
+    }
+        h1{
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhcwMFCG_80gpF2vruYCFuEduRk6yC5bkasg&usqp=CAU);
+            background-repeat: norepeat;
+            text-align:center;
+            background-clip: text;
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+       font-size: 100px;
+       padding: 50px;
+        }
+        .container{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            padding:20px;
+            margin: auto;
+        }
+        .imagegallery img{
+            height:200px;
+            width:200px;
+            border: solid 2px red;
+            border-radius: 20px;
+            cursor: pointer;
+            box-sizing: content-box;
+            margin: 20px;
+            margin-left: 70px;
+            
+        }
+        .imagegallery{
+            margin: 10px;
+            height: 300px;
+            width: 350px;
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+        }
+        .img1{
+            transition: width 2s,height 2s,transform 2s;
+        }
+        .img1:hover{
+            transform: rotate(180deg);
+            width: 250px;
+            height: 250px;
+        }
+        .img2{
+            transition: width 2s,height 2s,transform 2s;
+        }
+        .img2:hover{
+            width: 250px;
+            height: 250px;
+        }
+        .imgcaption{
+            height: 200px;
+            width: 350px; 
+            background-color: rgb(0,0, 0,0);
+            text-align: center;
+            color: red;
+            font-size: 25px;
+            font-weight: bolder;
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhcwMFCG_80gpF2vruYCFuEduRk6yC5bkasg&usqp=CAU);
+            background-repeat: norepeat;
+            text-align:center;
+            background-clip: text;
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        }     
+        
+          
+          
+          
